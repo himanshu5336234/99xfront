@@ -1,0 +1,23 @@
+@import '../../assets/scss/colours.scss';
+@import '../../assets/scss/breakpoints.scss';
+
+.custom-rating-bar-container{
+    .custom-rating-bar{
+        flex: 1 0 auto;
+        background: $border;
+        height:4px;
+        overflow: hidden;
+        margin: 0px 10px;
+        & span{
+            float: left;
+            height:4px;
+            background-color: #F9BB00;
+        }
+    }
+    .total-review{
+        width: 30px;
+    }
+    .label{
+        width: 50px;
+    }
+}

@@ -1,0 +1,74 @@
+.modal-content{
+    max-width: 400px ;
+    margin: auto ;
+    text-align: center;
+}
+.signup-box{
+    .signup-form-group{
+        display: flex;
+        width: 100%;
+        border: 1px solid #B0B0B0;
+        border-radius: 4px;
+        font-family:"neue-haas-grotesk-display";
+        input{
+            width: 95%;
+            border: 0px;
+            padding:7px 15px;
+            outline: 0px;
+            margin: 1px;
+            font-size: 14px;
+        }
+        button.submit{
+            padding:7px 15px;
+            margin: 2px;
+            width:150px;
+            font-size: 18px;
+            background: var(--color-secondary);
+            font-weight: 700;
+            border: 0px;
+            border-radius: 6px;
+            outline: 0px;
+            color: #fff;
+        }
+    }
+    .signup-form-inputs{
+        input{
+            width: 98%;
+            border: 1px solid #B0B0B0;
+            border-radius: 4px;
+            padding:7px 15px;
+            outline: 0px;
+            font-size: 14px;   
+            line-height: 30px;
+        }
+        div{
+            flex: 1;
+        }
+        .nameinput-container{
+            text-align: left;
+        }
+        .phoneinput-container{
+            text-align: right;
+    }
+
+        padding: 10px 0px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .offer{
+        color: var(--color-secondary);
+        font-size: 14px;
+        text-decoration: underline;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .signup-box{
+        .offer{
+            margin-top: 9px;
+            text-align: center;
+        }
+    }
+}

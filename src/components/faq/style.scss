@@ -1,0 +1,39 @@
+@import '../../assets/scss/colours.scss';
+@import '../../assets/scss/breakpoints.scss';
+
+.custom-accord-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    border-bottom: 1px solid $border;
+    font-family:"neue-haas-grotesk-display";
+    cursor: pointer;
+    &:last-child{
+      border-bottom: 0px solid $border;
+    }
+    & .custom-accord-head{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      & .fa-plus{
+        // transition: all 0.3s ease-out;
+        width: 20px;
+        height: 20px;
+        color: var(--color-primary);
+      }
+    }
+    & .custom-accord-body{
+      overflow: hidden;
+      max-height: 0;
+      transition: all 0.3s ease-out;
+    }
+    &.active{
+      & .custom-accord-head{
+        & .fa-plus{
+          // transform: rotate(-180deg);
+        }
+      }
+    }
+  }

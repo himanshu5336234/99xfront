@@ -1,0 +1,19 @@
+.x99-header{
+    max-width: 1140px;
+    .right{
+        float: right;
+        display: flex;
+        justify-content: end;
+        align-content: center;
+        .locale-box{
+            padding:0px 10px;
+        }
+        .site-holder{
+            div{
+                margin-top: 0px;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
+}

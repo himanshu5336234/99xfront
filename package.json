@@ -1,0 +1,73 @@
+{
+  "name": "x99startup",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.2",
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "cross-env": "^7.0.3",
+    "node": "^14.18.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.0",
+    "react-collapsy": "0.0.10",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.1",
+    "react-glitch-effect": "^2.0.2",
+    "react-google-login": "5.1.22",
+    "react-helmet": "^6.1.0",
+    "react-modal": "^3.11.2",
+    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0",
+    "react-toastify": "^6.0.6",
+    "react-typed": "^1.2.0",
+    "react-visibility-sensor": "^5.1.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "5.2.0"
+  },
+  "reactSnapshot": {
+    "snapshotDelay": 2000
+  },
+  "scripts": {
+    "start": "cross-env PORT=4010 craco start",
+    "build": "cross-env REACT_APP_SITE=1 REACT_APP_TITLE='99xStartup' craco build",
+    "build:startup": "cross-env REACT_APP_SITE=1 REACT_APP_TITLE='99xStartup' PORT=4010 craco build",
+    "build:design": "cross-env REACT_APP_SITE=3 REACT_APP_TITLE='99xDesign' craco build",
+    "build:seo": "cross-env REACT_APP_SITE=5 REACT_APP_TITLE='99xSEO' craco build",
+    "build:social": "cross-env REACT_APP_SITE=6 REACT_APP_TITLE='99xSocial' craco build",
+    "build-static": "react-scripts build && react-snapshot",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev:startup": "cross-env REACT_APP_SITE=1 REACT_APP_TITLE='99x Startup' npm start",
+    "dev:design": "cross-env REACT_APP_SITE=3 REACT_APP_TITLE='99x Design' npm start",
+    "dev:studio": "cross-env REACT_APP_SITE=4 REACT_APP_TITLE='99xStudio' npm start",
+    "dev:seo": "cross-env REACT_APP_SITE=5 REACT_APP_TITLE='99xSEO' npm start",
+    "dev:social": "cross-env REACT_APP_SITE=6 REACT_APP_TITLE='99x Social' PORT=4011 craco start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-snapshot": "^1.3.0"
+  }
+}

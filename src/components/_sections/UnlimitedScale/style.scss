@@ -1,0 +1,25 @@
+.comp-unlimited-scale{
+    padding: 0px;
+    background: #f8f8f8;
+    font-family:"neue-haas-grotesk-display";
+    .count{
+        background: url('https://ik.imagekit.io/99x/content/browser-skeleton_ufmkXRESk.png') no-repeat;
+        background-position-y: 50px;
+        padding-top: 110px;
+        padding-left: 30px;
+        p{
+            margin:0px;
+            font-weight: 700;
+        }
+        .title{
+            font-size: 26px;
+        }
+        .amount{
+            font-size: 40px;
+            color: #5D4FBB;
+        }
+    }
+    .banner-text{
+        padding: 62px 50px
+    }
+}

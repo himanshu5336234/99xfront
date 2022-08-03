@@ -1,0 +1,86 @@
+.boost-your-startup{
+
+    background: linear-gradient(to right, #f8f8f8 50%, #fff 50%);
+    padding-top: 130px;
+    padding-bottom: 118px;
+
+    .card{
+        top: -46px;
+        border: 0px!important;
+        padding: 10px;
+
+        img{
+            padding: 20px;
+        }
+    }
+
+    // background: #f7f7f7;
+    font-family:"neue-haas-grotesk-display";
+    h2{
+        font-weight: 600;
+        font-size: 48px;
+        font-family:"neue-haas-grotesk-display";
+        margin-bottom: 15px;
+        line-height: 90%;
+        span{
+            color: var(--color-primary);
+            font-size: 48px;
+        }
+    }
+    p.lead{
+        font-size: 18px;
+        font-family:"neue-haas-grotesk-display";
+    }
+
+    .custom-tab-header{
+        .active{
+            background: #252B62!important;
+            color: #fff!important;
+            border-bottom: none!important;
+        }
+    }
+
+    ul{
+        margin-top:60px;
+        margin-left: 0px;
+        li{
+            font-weight: 400;
+            font-family:"neue-haas-grotesk-display";
+            color: #808080;
+            line-height: 200%;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        li.active{
+            color:var(--color-secondary);
+            font-weight: 700;
+        }
+    }
+
+    .content{
+        padding: 0px 20px;
+        h3{
+            color: var(--color-primary);
+            font-size: 24px;
+            font-family:"neue-haas-grotesk-display";
+            line-height: 32px;
+        }
+        p{
+            color: #2F2F2F;
+            font-size: 18px;
+            font-family: "neue-haas-grotesk-display";
+        }
+        div{
+            img{
+                width:100%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .boost-your-startup{
+        background: #fff!important
+    }
+}

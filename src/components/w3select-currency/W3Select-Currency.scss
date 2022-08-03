@@ -1,0 +1,41 @@
+/* @styled-jsx=global */
+ul.currency-list{
+    li{
+        padding: 10px 0px;
+        font-family: "neue-haas-grotesk-display";
+        cursor: pointer;
+    }
+    li:hover{
+        background: #f7f7f7;
+    }
+}
+.currenct-selector{
+    cursor: pointer;
+    font-family: "neue-haas-grotesk-display";
+    font-weight: 400;
+    font-size: 14px!important;
+    padding: 6px 15px;
+    // border: 1px solid #eadcdc;
+    margin: 0px 4px;
+    top: 0px;
+    border-radius: 5px;
+    .currency-text{
+        font-size: 14px;
+        b.caret{
+            top:13px;
+            left:4px;
+            position: relative;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 4px solid #111;
+        }
+    }
+    .currenct-text::after{
+        content:'';
+        width: 10px; 
+        height: 10px; 
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #000;
+    }
+}

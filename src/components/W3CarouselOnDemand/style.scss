@@ -1,0 +1,44 @@
+.video-thumb{
+    max-height: 100px;
+    max-width: 100px;
+}
+.ondemand-carousel{
+    min-height: 300px;
+    width: 100%;
+    .w3-carousel .owl-carousel .owl-nav{
+        .owl-next{
+            margin-top: -42%;
+            background: url("https://ik.imagekit.io/99x/startup/_onetime_service/_customer_review/Group_11_oBcbyjT_rb.png");
+        }
+        .owl-prev{
+            margin-top: -42%;
+            float: left;
+            width: 70px;
+            height: 70px;
+            background-position: center;
+            z-index: 10;
+            margin-left: -57px;
+            position: relative;
+            background: url("https://ik.imagekit.io/99x/startup/_onetime_service/_customer_review/Group_859_wVmw6lI5H.png")
+        }
+    }
+    div.carousel-menu{
+        background: #F8F8F8;
+        padding: 15px 10px;
+    }
+    ul{
+        display:flex;
+        width: 300px;
+        justify-content: space-between;
+        li{
+            font-size: 16px;
+            cursor: pointer;
+            color: #2f2f2f;
+        }
+        li.active{
+            font-weight: 700;
+            color: var(--color-primary);
+            border-bottom: 2px solid var(--color-primary);
+        }
+    }
+}

@@ -1,0 +1,105 @@
+/* @styled-jsx=global */
+
+.page_checkout_payment{
+    h2{
+        font-weight: 500;
+        color: #2F2F2F;
+        font-size: 36px;
+    }
+    .card-details{
+        display: flex;
+    }
+    .payment-notice{
+        font-size: 14px;
+        color: #b0b0b0;
+        span.small{
+            font-size: 12px;
+        }
+    }
+
+    #card-element{
+        font-size: 22px;
+        font-family: Open Sans;
+        padding: 28px;
+    }
+    .list-select{
+        background: #ffffff;
+        padding:20px 25px;
+        width:100%;
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 18px;
+        border: 0.2px solid #ccc;
+        box-sizing: border-box;
+        box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.05);
+        .disabled{
+            font-size: 12px;
+            color: #2F2F2F;
+            letter-spacing: 0.28px;
+        }
+        .logo{
+            margin-left: 10px;
+        }
+    }
+    div.paypal{
+        padding:25px;
+        .paypal-notice{
+            padding: 10px;
+            border-radius: 6px;
+            background: rgb(1,33,105);
+            background: linear-gradient(90deg, rgba(1,33,105,1) 0%, rgba(9,9,121,1) 36%, rgba(0,156,222,1) 100%);
+            color: #fff;
+        }
+    }
+    .payment-method-body{
+        background: #F8F8F8
+    }
+    .btn-confirm-payment{
+        padding:15px;
+        text-align: center;
+        width:100%;
+        margin:auto;
+        outline: none;
+        background: var(--color-highlight);
+        border-radius: 4px;
+        color:#ffffff;
+        font-size: 24px;
+        font-weight:700;
+        border: 0px;
+    }
+    #stripeForm{
+        width:100%;
+        text-align: center;
+    }
+    .summary-card{
+        padding: 20px;
+    }
+    .pm-label{
+        margin:0px;
+        display: block;
+        .pm-text{
+            margin-left: 10px;
+            font-family:"neue-haas-grotesk-display";
+            -webkit-font-smoothing: antialiased;
+
+        }
+        input{
+            display: none;
+        }
+        .w3custom-radio{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #f7f7f7;
+            border-radius: 100%;
+            border: 3px solid #f7f7f7;
+            position: relative;
+            top: 5px;
+            box-shadow: 0 0 2px 1px #222;
+        }
+        input:checked ~ .w3custom-radio{
+            background: var(--color-primary)
+        }
+    }
+
+}

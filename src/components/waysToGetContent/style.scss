@@ -1,0 +1,24 @@
+.category-touch{
+    .category-card{
+        transition: all .2s ease-in-out;
+        .title{
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 0px;
+        }
+        .subtitle{
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--color-highlight);
+        }
+        .desc{
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.33;
+            letter-spacing: 0.28;
+        }
+    }
+    .category-card:hover{
+        transform: scale(1.1);
+    }
+}

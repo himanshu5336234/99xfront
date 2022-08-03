@@ -1,0 +1,13 @@
+/* @styled-jsx=global */
+
+.w3-modal{
+    .modal-title{
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .modal-dialog{
+        max-width: 400px;
+        min-width: 250px;
+    }
+}

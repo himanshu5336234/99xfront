@@ -1,0 +1,125 @@
+.onboard-component{
+    
+    font-family:"neue-haas-grotesk-display";
+    width: 458px;
+    margin:auto;
+
+    .resend-code-btn{
+        color:#0072c6;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 80%;
+    }
+
+    .onboard-title{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+        h2{
+            margin: 8px auto;
+            text-align: center;
+            font-size: 48px;
+            letter-spacing: -0.48px;
+            font-weight: 400;
+        }
+        p{
+            margin: 8px auto;
+            width: 440px;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0.28px;
+        }
+    }
+
+    .form-group{
+
+        text-align: left;
+
+        label{
+            float:left!important;
+            font-weight: 600;
+            font-size:14px;
+        }
+
+        .w3dev-input{
+            border-radius: 0px;
+            border: 1px solid #B0B0B0;
+            font-size: 16px;
+            padding: 12px 14px!important;
+            outline: 0px;
+        }
+        
+        
+    }
+
+    .w3dev-btn{
+        width:100%;
+        padding:10px;
+        background: var(--color-primary);
+        font-weight: 700;
+        border:none;
+    }
+    .w3dev-btn-outline{
+        color:var(--color-primary);
+        border: 2px solid var(--color-primary);
+        background: transparent;
+        font-weight: 700;
+        width:100%;
+    }
+
+    #emailHelp{
+        a{
+            color:#0072c6;
+        }
+    }
+
+    h2{
+        font-family:"neue-haas-grotesk-display";
+        font-weight: 400;
+        text-align: left;
+        font-size: 22px;
+    }
+    
+    .mobile-field{
+        label{
+            float: left;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .input-container{
+            display: flex;
+            justify-content: center;
+            align-items: inherit;
+            width: 100%;
+            margin-bottom: 20px;
+            .country-selector{
+                width: 120px;
+                select{
+                    height: 100%;
+                    border: 1px solid #ccc;
+                }
+            }
+            .phone-input{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .onboard-component{
+        max-width: 458px;
+        width: auto;
+        .onboard-title{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+                width: auto;
+            }
+        }
+    }
+}

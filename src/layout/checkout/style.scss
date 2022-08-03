@@ -1,0 +1,48 @@
+.checkout-layout{
+    
+    .order-steps{
+        ul{
+            display: flex;
+            justify-content: space-around;
+            width: 650px;
+            li{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-size: 16px;
+                letter-spacing: 0.28px;
+                font-weight: 700;
+                color: #B0B0B0;
+                .menu-icon{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 30px;
+                    background: #B0B0B0;
+                    margin-right: 10px;
+                    color: #fff;
+                    font-weight: 700;
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+            }
+            li.active{
+                color: var(--color-highlight);
+                .menu-icon{
+                    background-color: var(--color-highlight);
+                    
+                }
+            }
+            li.complete{
+                .menu-icon{
+                    background-image: url('https://ik.imagekit.io/99x/startup/revised/Vector_5__Stroke__xRWORNDh7G.png');
+                    background-position: center;
+                    background-size: 50%;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+
+}

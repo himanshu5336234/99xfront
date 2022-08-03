@@ -1,0 +1,142 @@
+.eyntg{
+    
+    margin: 75px 0px 50px calc(50% - 570px);
+
+    .magenta{
+        background: var(--color-primary);
+    }
+    .magenta:hover{
+        background: var(--color-secondary);
+    }
+
+    .btn-explore{
+        color: #fff!important;
+        padding: 17px 31px;
+        font-weight: 700;
+        font-size: 24px;    
+        border-radius: 6px;
+    }
+    .category-list{
+        min-width: 1281px;
+        display: flex;
+        flex-direction: row;
+        button{
+            display: flex;
+            height: 110px;
+            flex: 1 0 auto;
+            font-family:"neue-haas-grotesk-display";
+            border:0px;
+            border-right: 2px solid none;
+            border-bottom: 4px solid transparent;
+            font-size: 24px;
+            font-weight: 400;
+            color: #B0B0B0;
+            background: #f8f8f8;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+            padding: 0px 37px;
+            margin: 0px 8px;
+            img{
+                width:48px;
+                margin-right: 12.61px;
+            }   
+        }
+        button.active{
+            background: var(--color-secondary)!important;
+            color: #fff!important;
+            border-bottom: none!important;
+        }
+    }
+    // background: #f7f7f7;
+    font-family:"neue-haas-grotesk-display";
+    h2{
+        font-weight: 600;
+        font-size: 32px;
+        font-family:"neue-haas-grotesk-display";
+        margin-bottom: 20px;
+    }
+    .custom-tab-header{
+        
+    }
+
+    .comp-card{
+        
+        div.comp-features{
+
+            ul{
+                margin-top:40px;
+                margin-left: 25px;
+                li{
+                    display: flex;
+                    list-style-position: outside;
+                    background-repeat: no-repeat;
+                    background-size: .25em;
+                    background-position: 0 .25em;
+                    i.custom-round-check{
+                        min-width: 26px;
+                        margin-top: 6px;
+                    }
+                    span{
+                        font-weight: 400;
+                        font-size: 24px;
+                        font-family:"neue-haas-grotesk-display";
+                    }
+                }
+            }
+
+        }
+
+        div{
+            img{
+                width:100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .eyntg{
+        margin: 30px 0px;
+        h2{
+            text-align: center;
+            font-size: 24px!important;
+            font-weight: 400;
+            padding: 10px 15px;
+        }
+        .category-list{
+            min-width: 100%;
+            button{
+                height: 64px;
+                font-size: 14px;
+                img{
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+        .btn-explore{
+            margin: auto;
+            font-weight: 700;
+            font-size: 22px!important;
+            width: 80%;
+            text-align: center;
+        }
+        .comp-features{
+            li{
+                margin: 10px 0px;
+                span{
+                    font-size: 16px!important;
+                }
+                .custom-round-check{
+                    width: 20px;
+                    min-width: 20px!important;
+                    height: 20px;
+                    line-height: 20px;
+                    border-radius: 25px;
+                    margin-top: 3px!important;
+                }
+            }
+        }
+    }
+}

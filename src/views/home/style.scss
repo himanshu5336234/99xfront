@@ -1,0 +1,81 @@
+.free-trial-form{
+    border: 2px solid #53bc9c;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    & input{
+        flex: 1 0 auto;
+        border:none;
+        box-shadow: none;
+        outline: none;
+        height:36px;
+        padding: 0px 20px;
+    }
+    & button{
+        padding:0px 20px;
+        height: 36px;
+        line-height: 36px;
+        background-color: #53bc9c;
+        color: #fff;
+        font-weight: 700;
+    }
+  
+}
+.services{
+    cursor: pointer;
+    & .round-icon{
+        border: 1px solid #53bc9c;
+        color: #53bc9c;
+    }
+    &:hover .round-icon{
+        background: #53bc9c;
+        color: #fff;
+    }
+}
+
+.video-player{
+    justify-content: center;
+    align-content: center;
+    div.player-container{
+        align-self: center;
+        height: 500px;
+        width: 100vh;
+        text-align: center;
+        margin: auto;
+        img{
+            position: relative;
+            top: 35%;
+        }
+    }
+    div.play-btn{
+        position: relative;
+    }
+}
+
+.blogs{
+    width: 100%;
+    min-height: 100%;
+    box-shadow: 0px 0px 32px -11px #ccc;
+    cursor: pointer;
+    & .blogs-body{
+        width: 100%;
+        padding: 20px 18px;
+        text-align: left;
+        & ul{
+            & li{
+                font-size: 16px;
+                padding:5px 0px;
+            }
+        }
+    }
+}
+
+.li-grey{
+    font-family: gilroyBold;
+    color:#888;
+    li{
+        font-size: 20px;
+    }
+}

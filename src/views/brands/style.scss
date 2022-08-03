@@ -1,0 +1,82 @@
+.brands-page{
+    font-family:"neue-haas-grotesk-display";
+    img{
+        max-width: 100%;
+    }
+    .banner-hero{
+        .hero-text-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .hero-text{
+                h2{
+                    font-size: 60px;
+                    color: var(--color-secondary);
+                }
+                p{
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #1a1a1a;
+                }
+                a{
+                    font-size: 24px;
+                    font-weight: 400;
+                    font-family:"neue-haas-grotesk-display";
+                }
+            }    
+        }
+    }
+    .your-business{
+        margin: 70px auto;
+        h2{
+            margin: 50px auto;
+            text-align: center;
+            font-size: 48px;
+        }
+        .item-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .item{
+                margin: 10px auto;
+                max-width: 400px;
+                h3{
+                    font-size: 36px;
+                }
+                p{
+                    font-size: 18px;
+                    letter-spacing: 0.28px;
+                }
+            }
+        }
+    }
+
+    .brands-how-it-works{
+        background: rgba(236, 236, 236, 0.69);
+        padding: 20px auto;
+        .container{
+            background: inherit;
+            padding-top: 10px;
+            h2{
+                font-size: 48px;
+                margin: 50px auto;
+                color: #2C2B3C;
+                text-align: center;
+            }
+            .text-container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h3{
+                    font-size: 32px;
+                }
+                p{
+                    font-size: 18px;
+                    letter-spacing: 0.30px;
+                }
+            }
+        }
+        
+    }
+}

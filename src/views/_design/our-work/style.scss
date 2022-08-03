@@ -1,0 +1,78 @@
+@import '../../../assets/scss/colours.scss';
+@import '../../../assets/scss/breakpoints.scss';
+
+.page-our-work{
+    h1{
+        font-family:"neue-haas-grotesk-display";
+        font-size: 48px;
+        font-weight: 500;
+        text-align: center;
+        margin: 50px 10px;
+    }
+    .service-nav{
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        flex-direction: row;
+        margin: 0px 4px;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        & button{
+            max-width: 100%;
+            flex: none;
+            background-color: $lightGray;
+            color: $lightText;
+            border-color: $lightGray;
+            border-radius: 4px;
+            padding: 20px 20px;
+            font-family: 'PT sans';
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 0px;
+        }
+    }
+    .portfolio-item{
+        justify-content: center;
+        align-self: middle;
+        padding: 10px;
+        img{
+            width:80%;
+            border-radius: 8px;
+        }
+    }
+
+    section.meet-writers{
+        p{
+            font-family:"neue-haas-grotesk-display";
+        }
+    }
+
+    section.awesome-stuff{
+        background: #F17880;
+        padding: 50px;
+        .section-content{
+            max-width: 400px;
+            margin:auto;
+            font-family:"neue-haas-grotesk-display";
+            h2{
+                color: #fff;
+            }
+        }
+    }
+    .btn{
+        text-align: center;
+        font-size: 18px;
+        padding: 10px 30px;
+        font-family:"neue-haas-grotesk-display";
+        margin: 20px 2px;
+    }
+    .btn-outline{
+        border: 2px solid #fff;
+        color: #fff;
+    }   
+    .btn-filled{
+        background: #000;
+        color: #fff;
+    }
+}

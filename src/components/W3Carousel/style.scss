@@ -1,0 +1,31 @@
+.w3-carousel{
+
+    // Owl Theme files included in Main Stylesheet
+    .owl-next{
+        margin-top: -30%;
+        float: right;
+        background: url('https://ik.imagekit.io/99x/startup/components/featured-work-slider/Arrow_x5Mz1Yi47.svg');
+        width: 70px;
+        height: 70px;
+        background-position: center;
+        z-index: 10;
+        position: relative;
+        margin-right: -20px;
+    }
+
+    .owl-dots{
+        display: flex;
+        margin-top:32px;
+        justify-content: center;
+        border-radius: 4px;
+    }
+    .owl-dot{
+        cursor: pointer;
+        width: 32px;
+        height: 8px;
+        background: #B0B0B0;
+    }
+    .owl-dot.active{
+        background: var(--color-primary);
+    }
+}

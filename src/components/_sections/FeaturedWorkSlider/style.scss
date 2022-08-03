@@ -1,0 +1,140 @@
+.featured-work-modal{
+    background: rgba(0,0,0,0.5);
+    .modal-dialog{
+        max-width: calc(100vw - 10%);
+        .modal-body{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.featured-work-slider{
+    text-align: center;
+    .section-head{
+        h2{
+            font-weight: 500;
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 0.48 px;
+        }
+        margin-bottom: 40px;
+    }
+    .cat{
+        min-width: 900px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 16px;
+        // background-color: #f8f9fa;
+        button{
+            height: 88px;
+            // width: calc(100% / 6);
+            flex: 1 0 auto;
+            font-family: "neue-haas-grotesk-display";
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0.48px;
+            color: #808080;
+            background-color: #ffffff;
+            border: #fff;
+            outline: #fff;
+        }
+        button.active{
+       
+            color: var(--color-highlight);
+            border-bottom: 4px solid var(--color-highlight);
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            
+            
+            li{
+                margin:auto;
+                div{
+                    width: 100%;
+                    
+                    
+                    font-family:"neue-haas-grotesk-display";
+                }
+                div.active{
+                    color: var(--color-highlight);
+                    border-bottom: 5.8px solic var(--color-highlight);
+                }
+            }
+        }
+    }
+}
+
+// For 99x Design
+.featured-work-slider-design{
+    text-align: left;
+    background: #F8F8F8;
+    padding-top: 50px;
+    .section-head{
+
+        h2{
+            font-weight: 500;
+            font-size: 48px;
+            margin-bottom: 16px;
+            color: #391763;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 0.48 px;
+        }
+        margin-bottom: 40px;
+    }
+    .cat{
+        min-width: 900px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 16px;
+        // background-color: #f8f9fa;
+        button{
+            height: 88px;
+            // width: calc(100% / 6);
+            flex: 1 0 auto;
+            font-family: "neue-haas-grotesk-display";
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 0.48px;
+            color: #808080;
+            border: transparent;
+            outline: transparent;
+        }
+        button.active{
+            background-color: transparent;
+            color: var(--color-primary);
+            border-bottom: 4px solid var(--color-primary);
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            
+            
+            li{
+                margin:auto;
+                div{
+                    width: 100%;
+                    
+                    
+                    font-family:"neue-haas-grotesk-display";
+                }
+                div.active{
+                    color: var(--color-highlight);
+                    border-bottom: 5.8px solic var(--color-highlight);
+                }
+            }
+        }
+    }
+}

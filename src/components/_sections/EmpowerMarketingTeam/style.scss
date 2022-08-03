@@ -1,0 +1,31 @@
+.comp-empower-marketing-team{
+    font-family:"neue-haas-grotesk-display";
+    .card{
+        border: transparent!important;
+    }
+    h2{
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-weight: 600;
+        font-size: 44px;
+    }
+    .image-container{
+        display: flex;
+        height: 250px;
+        align-items: center;
+        align-content: center;
+        img{
+            width: 50%;
+            align-self: center;
+            margin: auto;
+        }
+    }
+    
+    h5.card-title{
+        font-size: 24px;
+        text-align: center;
+    }
+    .card-text{
+        font-size: 14px;
+        text-align: center;
+    }
+}

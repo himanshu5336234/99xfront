@@ -1,0 +1,195 @@
+// Main CSS
+.main-subscription-plans{
+    background: #FFF8FB;
+    padding: 130px 0px;
+    h2{
+        font-family:"neue-haas-grotesk-display";
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: -0.48px;   
+    }
+    p.subtitle{
+        font-family:"neue-haas-grotesk-display";
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.28px;
+    }
+    button.btn-subscribe{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        background: var(--color-bg-subscribe-button)!important;
+        color: #fff!important;
+        padding: 16px;
+    }
+    .pricing-table{
+        .col-md-4{
+            padding:0px;
+        }
+        .table-top{
+            height: 226px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            sup{
+                font-weight: 700!important;
+                top: -17px;
+            }
+            .actual-price{
+                span{
+                    color: #B0B0B0;
+                    font-size: 18px;
+                }
+                .strikethrough {
+                    position: relative;
+                  }
+                  .strikethrough:before {
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: 50%;
+                    right: 0;
+                    border-top: 1px solid;
+                    border-color: inherit;
+                  
+                    -webkit-transform:rotate(-5deg);
+                    -moz-transform:rotate(-5deg);
+                    -ms-transform:rotate(-5deg);
+                    -o-transform:rotate(-5deg);
+                    transform:rotate(-5deg);
+                  }
+            }
+        }
+    }
+    .subscription-card{
+
+        .subscription-type{
+            font-family:"neue-haas-grotesk-display";
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .subscription-price{
+
+            font-family:"neue-haas-grotesk-display";
+
+            .amount{
+                font-size: 48px;
+                font-weight: 400;
+                letter-spacing: -0.48px;
+            }
+
+            .period{
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.28px;
+            }
+        }
+
+        .subscription-brief{
+
+            margin:10px;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            min-height: 140px;
+
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            .brief-item{
+                padding: 10px;
+                p{
+                    font-family:"neue-haas-grotesk-display";
+                    font-size: 24px;
+                    letter-spacing: 0.28px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .subscription-points{
+            font-family:"neue-haas-grotesk-display";
+            min-height: 400px;
+        
+            ul{
+                min-height: 400px;
+                li{
+                    display: flex;
+                    margin: 10px auto;
+                    img{
+                        height: 20px;
+                        width: 20px;
+                        margin-right: 10px;
+                    }
+                    span{
+                        font-weight: 400;
+                        font-size: 14px;
+                        letter-spacing: 0.28px;
+                    }
+                }
+            }
+        }
+    }
+
+    // Check why it is there.
+    .subscription-plan{
+        width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 0px 32px -11px #ccc;
+        cursor: pointer;
+        transition: linear 0.2s;
+        opacity: 0.7;
+        &:hover{
+            transform: scaleY(1.1);
+            opacity: 1;
+        }
+        & .inner-wrapper{
+            position: absolute;
+            width: 100%;
+            padding: 20px 18px;
+            left: 0px;
+            top:0px;
+            color: #fff;
+            font-weight: 600;
+            & .subs-title{
+                width: 100%;
+                & .batch{
+                    border: 1px solid #fff;
+                    border-radius: 20px;
+                    color: #fff;
+                    padding:4px 10px;
+                    font-size:12px;
+                    font-weight: 600;
+                    & i{margin-right:5px;font-size:12px;}
+                }
+            }
+            & .subs-price{
+                width: 100%;
+                font-size: 28px;
+                text-align: left;
+                padding: 24px 0px 0px;
+                & span{display: block;}
+            }
+        }
+        & .subs-body{
+            width: 100%;
+            padding: 20px 18px;
+            text-align: left;
+            & ul{
+                & li{
+                    font-size: 16px;
+                    padding:5px 0px;
+                }
+            }
+        }
+    }
+}

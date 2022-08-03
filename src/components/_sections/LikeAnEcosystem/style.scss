@@ -1,0 +1,38 @@
+.like-an-ecosystem{
+    margin: 40px auto;
+    font-family:"neue-haas-grotesk-display";    
+    .left{
+        h2{
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        p.subtitle{
+            line-height: 150%;
+            font-size: 16px;
+            margin: 15px 0px 35px 0px
+        }
+        h3{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        p{
+            font-family:"neue-haas-grotesk-display";
+            letter-spacing: 0.28px;
+            font-weight: 400;
+            font-size: 14px;
+        }
+        img{
+            margin: 10px 0px;
+            padding: 5px;
+        }
+    }
+    .right{
+        height:'100%';
+        img{
+            margin-top: -30px;
+            width: 100%;
+        }
+        // background:'url("https://ik.imagekit.io/99x/startup/components/like_an_ecosystem/99xDigital_1v87nyd4S.png")'
+    }
+}

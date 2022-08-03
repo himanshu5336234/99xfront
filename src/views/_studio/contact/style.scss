@@ -1,0 +1,70 @@
+.contact-page{
+    width: 1440px;
+    background-image: url('https://ik.imagekit.io/99x/startup/pages/contact/Image_d0f9bNC3CW.png');
+    min-height: 750px;
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    margin: auto;
+    .container{
+        h1{
+            font-size: 64px;
+            letter-spacing: -0.88px;
+            color: #2f2f2f;
+            margin: 48px 5px;
+        }
+        .contact-grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(448px, 2fr));
+            grid-gap: 32px;
+            width: 950px;
+            text-align: center;
+            align-items: center;
+            .item{
+                background: #fff;
+                height: 448px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-items: center;
+                align-content: center;
+                .item-details{
+                    margin:auto;
+                    width: 330px;
+                    h2{
+                        font-size: 32px;
+                        font-weight: 500;
+                    }
+                    p{
+                        margin: 24px;
+                        font-size: 16px;
+                        color: #2f2f2f;
+                        letter-spacing: 0.28px;
+                    }
+                    button{
+                        margin-top:70px;
+                        width: 318px;
+                        border-radius: 4px;
+                        outline: none;
+                        border: 0px;
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 700;
+                        padding: 16px 10px;
+                        text-align: center;
+                    }
+                }
+            }
+            .sales{
+                button{
+                    background: var(--color-primary);
+                }
+            }
+            .support{
+                button{
+                    background: var(--color-secondary);
+                }
+            }
+        }
+    }
+}

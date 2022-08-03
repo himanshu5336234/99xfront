@@ -1,0 +1,23 @@
+.site-by-numbers{
+    margin: 50px auto;
+    h2{
+        margin:auto;
+        text-align: center;
+    }
+    div.counter-n{
+        margin: 30px 0px;
+        .counter-count{
+            color: #02adc5;
+            font-weight: 700;
+            font-family: Roboto;
+            font-size: 80px;
+        }
+        .label{
+            font-size: 18px;
+            line-height: 1.44;
+            letter-spacing: 0.28px;
+            font-family: Roboto;
+        }
+    }
+
+}
